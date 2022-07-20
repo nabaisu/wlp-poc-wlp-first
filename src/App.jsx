@@ -1,10 +1,10 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import {a, b, c} from './wlp'
-import './App.css'
+import { useState } from "react";
+import reactLogo from "./assets/react.svg";
+import { a, b, c } from "./wlp";
+import "./App.css";
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(0);
 
   return (
     <div className="App">
@@ -18,19 +18,22 @@ function App() {
       </div>
       <h1 className="text-3xl font-bold underline">{a}</h1>
       <div className="bg-gray-300">
-        <h2 className="p-3 text-3xl font-bold">{b && "this should be inside a gray area in main"}</h2>
+        <h2 className="p-3 text-3xl font-bold">
+          {b && "this should be inside a gray area in main"}
+        </h2>
         <button onClick={() => setCount((count) => count + c)}>
           count is {count}
         </button>
         <p>
           Edit <code>src/App.jsx</code> and save to test HMR
         </p>
+        <p>first update!</p>
       </div>
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
