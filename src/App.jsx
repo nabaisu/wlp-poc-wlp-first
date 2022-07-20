@@ -28,6 +28,7 @@ function App() {
           Edit <code>src/App.jsx</code> and save to test HMR
         </p>
         <p>second update to override first!</p>
+        <p>this is a different update</p>
       </div>
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
