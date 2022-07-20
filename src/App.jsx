@@ -19,7 +19,7 @@ function App() {
       <h1 className="text-3xl font-bold underline">{a}</h1>
       <div className="bg-gray-300">
         <h2 className="p-3 text-3xl font-bold">
-          {"this should be inside a gray area in main"}
+          {b}
         </h2>
         <button onClick={() => setCount((count) => count + c)}>
           count is {count}
