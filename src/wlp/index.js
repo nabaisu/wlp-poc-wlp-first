@@ -1,3 +1,3 @@
-export const a = "this is a successful test! I'm in White Label!!";
-export const b = "This area should be RED! I'm in the WLP";
-export const c = 10;
+export const a = "this is a test, I'm in main";
+export const b = "this should be inside a gray area in main";
+export const c = 2;
