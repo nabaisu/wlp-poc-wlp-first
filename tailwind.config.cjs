@@ -4,7 +4,6 @@ const colors = require("./src/wlp/colors.cjs");
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
-<<<<<<< HEAD
     colors: {
       gray: {
         100: "#fee2e2",
@@ -18,9 +17,6 @@ module.exports = {
         900: "#7f1d1d",
       },
     },
-=======
-    colors: colors,
->>>>>>> upstream/main
     extend: {},
   },
   plugins: [],
