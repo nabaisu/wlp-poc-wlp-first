@@ -29,11 +29,7 @@ function App() {
         </p>
         <p>second update to override first!</p>
         <p>this is a different update</p>
-<<<<<<< HEAD
-        <p>new update. 123</p>
-=======
         <p>new update. 123456</p>
->>>>>>> upstream/main
       </div>
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
